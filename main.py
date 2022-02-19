@@ -1,10 +1,11 @@
 import keyboard
+from playsound import playsound
 
-keydowns = []
+#keydowns = []
 
 def callback_pressed(event):
-    name = event.name
-    print(name)
+    playsounda(f'NK Cream Sounds/{event.name.upper()}.mp3')
+    #name = event.name
 
 def callback_released(event):
     pass
@@ -15,6 +16,4 @@ def start():
     keyboard.wait()
 
 if __name__ == '__main__':
-    start() 
-
-
+    start()
