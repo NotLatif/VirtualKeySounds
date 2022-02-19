@@ -1,0 +1,8 @@
+Known bugs
+1- Playsound library does not close files after playing them causing crashes
+2- There needs to be an unknown.extension file
+3- holding a key repeats the sound
+
+Todo
+- fix bug#3 (callback_released)
+- keep latency as low as possible (timeit module might help with testing)
