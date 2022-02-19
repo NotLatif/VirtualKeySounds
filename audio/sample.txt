@@ -1,0 +1,3 @@
+This is here just to make the folder appear.
+You can of course change the folder name, but you also have to do it in the 
+main.py file. the variable name is -> (soundFolder) 
