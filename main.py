@@ -3,7 +3,7 @@ from playsound import playsound
 import os
 
 #keydowns = []
-soundFolder = 'NKCream/'
+soundFolder = 'audio/'
 extension = '.mp3'
 
 def callback_pressed(event):
